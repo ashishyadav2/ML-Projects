@@ -1,0 +1,13 @@
+[ 2024-01-05 20:18:44,490 ] 22 root - INFO - Entered the data ingestion method
+[ 2024-01-05 20:18:44,510 ] 25 root - INFO - read csv file dataset as dataframe(df)
+[ 2024-01-05 20:18:44,528 ] 30 root - INFO - train test split initiated
+[ 2024-01-05 20:18:44,559 ] 35 root - INFO - Ingestion of the data is completed
+[ 2024-01-05 20:18:44,628 ] 74 root - INFO - Read train and test data completed
+[ 2024-01-05 20:18:44,629 ] 75 root - INFO - Obtaining preprocessing object
+[ 2024-01-05 20:18:44,629 ] 54 root - INFO - Numerical columns: ['writing_score', 'reading_score']
+[ 2024-01-05 20:18:44,630 ] 55 root - INFO - Categorical columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
+[ 2024-01-05 20:18:44,636 ] 86 root - INFO - Applying preprocessing object on training dataframe and testing dataframe.
+[ 2024-01-05 20:18:44,712 ] 101 root - INFO - Saved preprocessing object.
+[ 2024-01-05 20:18:44,715 ] 27 root - INFO - Split train and test input data
+[ 2024-01-05 20:18:49,242 ] 58 root - INFO - Best model found both on train and test dataset
+[ 2024-01-05 20:18:49,242 ] 70 root - INFO - Error in initiate model trainer
