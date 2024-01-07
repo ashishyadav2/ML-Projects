@@ -1,0 +1,4 @@
+[ 2024-01-07 13:38:48,890 ] 96 werkzeug - WARNING -  * Debugger is active!
+[ 2024-01-07 13:38:48,912 ] 96 werkzeug - INFO -  * Debugger PIN: 136-822-881
+[ 2024-01-07 13:38:57,110 ] 96 werkzeug - INFO - 127.0.0.1 - - [07/Jan/2024 13:38:57] "POST /predict HTTP/1.1" 200 -
+[ 2024-01-07 13:39:14,275 ] 96 werkzeug - INFO - 127.0.0.1 - - [07/Jan/2024 13:39:14] "POST /predict HTTP/1.1" 200 -

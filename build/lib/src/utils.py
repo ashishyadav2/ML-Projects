@@ -49,7 +49,7 @@ def evaluate_model(X_train,y_train,X_test,y_test,models,params):
             test_model_score = r2_score(y_test,y_test_pred)
             
             report[list(models.keys())[i]] = test_model_score
-        logging.info("Hyper parameter tuning has been done")
+        logging.info("Hyper parameter tuning has been done completed")
         return report
     
     except Exception as e:

@@ -44,7 +44,6 @@ class ModelTrainer:
                 "Gradient Boosting": GradientBoostingRegressor(),
                 "Linear Regression": LinearRegression(),
                 "XGBRegressor": XGBRegressor(),
-                "KNeighbors Regressor": KNeighborsRegressor(),
                 "AdaBoost Regressor": AdaBoostRegressor(),
             }
             
@@ -69,7 +68,6 @@ class ModelTrainer:
                     # 'n_estimators': [8,16,32,64,128,256]
                 },
                 "Linear Regression":{},
-                "KNeighbors Regressor": {},
                 "XGBRegressor":{
                     # 'learning_rate':[.1,.01,.05,.001],
                     # 'n_estimators': [8,16,32,64,128,256]
